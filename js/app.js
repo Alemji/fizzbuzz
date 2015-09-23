@@ -39,16 +39,16 @@ $(document).ready(function() {
 		printFizzBuzz: function (max) {
 			for (var i = 1; i <= +max; i++) {
 				if (i%15===0) {
-					print('fizzbuzz');
+					this.print('fizzbuzz');
 				}
 				else if (i%3 === 0) {
-					print('fizz');
+					this.print('fizz');
 				}
 				else if (i%5 === 0) {
-					print('buzz');
+					this.print('buzz');
 				}
 				else {
-					print(i);
+					this.print(i);
 				}
 			}
 		}
